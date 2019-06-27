@@ -1,2 +1,3 @@
-# fit_active
-theme wordpress crée pour l'acrtivite du cours openclassroom Creer un site Wordpress
+# CHALET ET CAVIAR
+
+theme wordpress crée pour l'évaluation openclassroom Creer un site Wordpress dans le cadre de la formation développement d'application PHP/Symfony
