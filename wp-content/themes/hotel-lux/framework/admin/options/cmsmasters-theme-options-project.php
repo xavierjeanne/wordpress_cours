@@ -178,7 +178,7 @@ function hotel_lux_get_custom_project_meta_fields() {
 			'desc'	=> esc_html__('Show', 'hotel-lux'), 
 			'id'	=> $cmsmasters_option_name . 'title', 
 			'type'	=> 'checkbox', 
-			'hide'	=> '', 
+			'hide'	=> 'true', 
 			'std'	=> $cmsmasters_global_portfolio_project_title 
 		), 
 		array( 
@@ -186,7 +186,7 @@ function hotel_lux_get_custom_project_meta_fields() {
 			'desc'	=> esc_html__('Recommended Project Puzzle Image dimensions, or other size, with the same ratio:', 'hotel-lux') . '</br>', 
 			'id'	=> $cmsmasters_option_name . 'size', 
 			'type'	=> 'radio_img_pj', 
-			'hide'	=> '', 
+			'hide'	=> 'true', 
 			'std'	=> 'one_x_one', 
 			'options' => array( 
 				'one_x_one' => array( 
@@ -256,7 +256,7 @@ function hotel_lux_get_custom_project_meta_fields() {
 			'desc'	=> esc_html__('Choose image for Masonry Puzzle portfolio projects 1px or no gap', 'hotel-lux'), 
 			'id'	=> $cmsmasters_option_name . 'puzzle_image', 
 			'type'	=> 'image', 
-			'hide'	=> '', 
+			'hide'	=> 'true', 
 			'cancel' => 'true', 
 			'std'	=> '', 
 			'frame' => 'select', 
@@ -267,7 +267,7 @@ function hotel_lux_get_custom_project_meta_fields() {
 			'desc'	=> esc_html__('Choose image for Masonry Puzzle portfolio projects large gap', 'hotel-lux'), 
 			'id'	=> $cmsmasters_option_name . 'puzzle_large_gap_image', 
 			'type'	=> 'image', 
-			'hide'	=> '', 
+			'hide'	=> 'true', 
 			'cancel' => 'true', 
 			'std'	=> '', 
 			'frame' => 'select', 
@@ -278,7 +278,7 @@ function hotel_lux_get_custom_project_meta_fields() {
 			'desc'	=> '', 
 			'id'	=> $cmsmasters_option_name . 'details_title', 
 			'type'	=> 'text_long', 
-			'hide'	=> '', 
+			'hide'	=> 'true', 
 			'std'	=> $cmsmasters_global_portfolio_project_details_title 
 		), 
 		array( 
@@ -286,7 +286,7 @@ function hotel_lux_get_custom_project_meta_fields() {
 			'desc'	=> '', 
 			'id'	=> $cmsmasters_option_name . 'features', 
 			'type'	=> 'repeatable_multiple', 
-			'hide'	=> '', 
+			'hide'	=> 'true', 
 			'std'	=> '' 
 		), 
 		array( 
@@ -294,7 +294,7 @@ function hotel_lux_get_custom_project_meta_fields() {
 			'desc'	=> '', 
 			'id'	=> $cmsmasters_option_name . 'link_text', 
 			'type'	=> 'text', 
-			'hide'	=> '', 
+			'hide'	=> 'true', 
 			'std'	=> esc_html__('View Project', 'hotel-lux') 
 		), 
 		array( 
@@ -302,7 +302,7 @@ function hotel_lux_get_custom_project_meta_fields() {
 			'desc'	=> '', 
 			'id'	=> $cmsmasters_option_name . 'link_url', 
 			'type'	=> 'text_long', 
-			'hide'	=> '', 
+			'hide'	=> 'true', 
 			'std'	=> '' 
 		), 
 		array( 
@@ -310,7 +310,7 @@ function hotel_lux_get_custom_project_meta_fields() {
 			'desc'	=> esc_html__('Redirect to project link URL instead of opening project page', 'hotel-lux'), 
 			'id'	=> $cmsmasters_option_name . 'link_redirect', 
 			'type'	=> 'checkbox', 
-			'hide'	=> '', 
+			'hide'	=> 'true', 
 			'std'	=> 'false' 
 		), 
 		array( 
@@ -318,7 +318,7 @@ function hotel_lux_get_custom_project_meta_fields() {
 			'desc'	=> esc_html__('Open link in a new tab', 'hotel-lux'), 
 			'id'	=> $cmsmasters_option_name . 'link_target', 
 			'type'	=> 'checkbox', 
-			'hide'	=> '', 
+			'hide'	=> 'true', 
 			'std'	=> 'false' 
 		), 
 		array( 
@@ -326,7 +326,7 @@ function hotel_lux_get_custom_project_meta_fields() {
 			'desc'	=> '', 
 			'id'	=> $cmsmasters_option_name . 'features_one_title', 
 			'type'	=> 'text_long', 
-			'hide'	=> '', 
+			'hide'	=> 'true', 
 			'std'	=> '' 
 		), 
 		array( 
@@ -334,7 +334,7 @@ function hotel_lux_get_custom_project_meta_fields() {
 			'desc'	=> '', 
 			'id'	=> $cmsmasters_option_name . 'features_one', 
 			'type'	=> 'repeatable_multiple', 
-			'hide'	=> '', 
+			'hide'	=> 'true', 
 			'std'	=> '' 
 		), 
 		array( 
@@ -342,7 +342,7 @@ function hotel_lux_get_custom_project_meta_fields() {
 			'desc'	=> '', 
 			'id'	=> $cmsmasters_option_name . 'features_two_title', 
 			'type'	=> 'text_long', 
-			'hide'	=> '', 
+			'hide'	=> 'true', 
 			'std'	=> '' 
 		), 
 		array( 
@@ -350,7 +350,7 @@ function hotel_lux_get_custom_project_meta_fields() {
 			'desc'	=> '', 
 			'id'	=> $cmsmasters_option_name . 'features_two', 
 			'type'	=> 'repeatable_multiple', 
-			'hide'	=> '', 
+			'hide'	=> 'true', 
 			'std'	=> '' 
 		), 
 		array( 
@@ -358,7 +358,7 @@ function hotel_lux_get_custom_project_meta_fields() {
 			'desc'	=> '', 
 			'id'	=> $cmsmasters_option_name . 'features_three_title', 
 			'type'	=> 'text_long', 
-			'hide'	=> '', 
+			'hide'	=> 'true', 
 			'std'	=> '' 
 		), 
 		array( 
@@ -366,7 +366,7 @@ function hotel_lux_get_custom_project_meta_fields() {
 			'desc'	=> '', 
 			'id'	=> $cmsmasters_option_name . 'features_three', 
 			'type'	=> 'repeatable_multiple', 
-			'hide'	=> '', 
+			'hide'	=> 'true', 
 			'std'	=> '' 
 		), 
 		array( 
@@ -374,7 +374,7 @@ function hotel_lux_get_custom_project_meta_fields() {
 			'desc'	=> esc_html__('Show', 'hotel-lux'), 
 			'id'	=> $cmsmasters_option_name . 'sharing_box', 
 			'type'	=> 'checkbox', 
-			'hide'	=> '', 
+			'hide'	=> 'true', 
 			'std'	=> $cmsmasters_global_portfolio_project_share_box 
 		), 
 		array( 
@@ -382,7 +382,7 @@ function hotel_lux_get_custom_project_meta_fields() {
 			'desc'	=> esc_html__('Show', 'hotel-lux'), 
 			'id'	=> $cmsmasters_option_name . 'author_box', 
 			'type'	=> 'checkbox', 
-			'hide'	=> '', 
+			'hide'	=> 'true', 
 			'std'	=> $cmsmasters_global_portfolio_project_author_box 
 		), 
 		array( 
@@ -390,7 +390,7 @@ function hotel_lux_get_custom_project_meta_fields() {
 			'desc'	=> '', 
 			'id'	=> $cmsmasters_option_name . 'more_posts', 
 			'type'	=> 'select', 
-			'hide'	=> '', 
+			'hide'	=> 'true', 
 			'std'	=> $cmsmasters_global_portfolio_more_projects_box, 
 			'options' => array( 
 				'related' => array( 

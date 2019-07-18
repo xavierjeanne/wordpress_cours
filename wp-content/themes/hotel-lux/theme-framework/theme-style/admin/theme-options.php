@@ -44,7 +44,7 @@ function hotel_lux_theme_meta_fields($custom_all_meta_fields) {
 					'id'	=> 'cmsmasters_project_read_more', 
 					'type'	=> 'text', 
 					'hide'	=> '', 
-					'std'	=> esc_html__('Learn More', 'hotel-lux') 
+					'std'	=> esc_html__('Lire plus', 'hotel-lux') 
 				);
 			} elseif ($custom_all_meta_field['id'] == 'cmsmasters_project_title') {
 				$custom_all_meta_field['label'] = esc_html__('Room Title', 'hotel-lux');
@@ -74,7 +74,7 @@ function hotel_lux_theme_meta_fields($custom_all_meta_fields) {
 			) {
 				$custom_all_meta_fields_new[] = $custom_all_meta_field;
 				
-				$cmsmasters_global_portfolio_project_layout = (isset($cmsmasters_option['hotel-lux' . '_portfolio_project_layout']) && $cmsmasters_option['hotel-lux' . '_portfolio_project_layout'] !== '') ? $cmsmasters_option['hotel-lux' . '_portfolio_project_layout'] : 'r_sidebar';
+				$cmsmasters_global_portfolio_project_layout = (isset($cmsmasters_option['hotel-lux' . '_portfolio_project_layout']) && $cmsmasters_option['hotel-lux' . '_portfolio_project_layout'] !== '') ? $cmsmasters_option['hotel-lux' . '_portfolio_project_layout'] : 'fullwidth';
 				
 				$custom_all_meta_fields_new[] = array( 
 					'label'	=> esc_html__('Room Layout', 'hotel-lux'), 

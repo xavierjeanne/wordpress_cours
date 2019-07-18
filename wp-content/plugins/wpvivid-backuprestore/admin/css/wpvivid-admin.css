@@ -1,0 +1,222 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/*.list-top-block{height:40px; line-height:40px; display:block; float:left; position:relative; width:100%;}*/
+.list-top-chip{float:left;display:block; vertical-align:middle; }
+.list-top-chip::after{content:" "}
+.backup-basic-info{min-width:100px; margin:10px; float:left;}
+/*.list-top-chip-button{position:absolute; top:8px; right:10px;}*/
+.quickbackup{width:calc(100% - 290px);float:left; box-sizing:border-box;margin-right:10px; padding:10px;}
+.quickbackup label{display:inline-block;margin-bottom:10px;}
+.qucikbackup-schedule{width:280px; float:left; box-sizing:border-box; min-width:280px;}
+.quickstart-archive-block{width:33%;padding:10px; float:left; position:relative; box-sizing:border-box; }
+/*.schedule-archive-block{width:100%;padding:10px 10px 10px 0;float:left;box-sizing:border-box; min-width:260px;}*/
+.quickstart-storage-block{width:33%;padding:10px; float:left; position:relative; box-sizing:border-box;}
+.quickstart-btn{width:33%;padding:10px; float:left; position:relative; box-sizing:border-box;}
+.quickbackup-btn{display:block !important; margin:0 auto !important;width:150px;height:50px !important; line-height:48px !important; font-size:20px !important;}
+/*.quickmigrate-btn{width:33%;padding:10px; float:left; position:relative; box-sizing:border-box;}*/
+/*.migrate-btn{display:block !important; margin:0 auto !important;width:90px;height:50px !important; line-height:48px !important; font-size:20px !important;}*/
+.schedule-block{float:left;width:100%;padding:0 10px 10px 10px;box-sizing:border-box;}
+.postbox:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.quickbackup-block .fieldset label{margin-bottom:5px;}
+.custom-info{padding:10px;}
+.quickstart-storage-setting{width:100%;float:left; padding-left:10px; box-sizing:border-box;background-color:#f1f1f1; margin-bottom:10px;}
+/*.storage-column-left{width:15%;float:left;height:100%;min-width:100px;}
+.storage-column-right{margin-left:15%; width:auto;height:100%;position:relative;min-width:350px;box-sizing:border-box;}*/
+/*.storage-menu{background-color: #e5e5e5;display: block;padding: 5px;text-decoration: none; }
+.storage-menu img{margin-right:5px;}
+.storage-menu:hover{background-color:#f1f1f1;}
+.storage-menu-idle{border-right:1px solid #ccc;}
+.storage-menu-active{background-color:#fff;color:#000; border-right:none;border-top:1px solid #ccc;border-left:1px solid #ccc;border-bottom:1px solid #ccc;}*/
+/*.storage-colum-left{width:200px;float:left;height:100%;}
+.storage-column-right{margin-left:200px; width:auto;height:100%;position:relative; padding:10px 10px 10px 10px;}*/
+/*.storage-last-menu{border-bottom:1px solid #ccc;}*/
+.action-progress-bar{background-color:#f1f1f1 !important;margin:10px;color:#000;}
+.action-progress-bar-percent{background-color:#0085ba !important;color:#fff;}
+.storage-providers{float:left;padding:10px;cursor:pointer;}
+.storage-providers:hover{background-color:#f1f1f1 !important; color:#fff !important;}
+.storage-providers-active{background-color:#0085ba !important; color:#fff !important;}
+.storage-account-block{padding:10px;}
+.storage-account-button{margin:10px 10px 10px 0 !important;display:block !important; float:left;}
+/*.download_backup_dialog, .restore_backup_dialog{width:700px !important;display:block; background-color:#fff;float:left; box-sizing:border-box;}*/
+/*.inside-instruction{width:200px !important;float:left;background-color:#fff;box-sizing:border-box;border-left:1px solid #f1f1f1; height:100%;display:block;}*/
+/*.backup-download-restore-table{height:500px; overflow:auto;}
+.tr-progress-bar{width:100%;height:2px;background-color:#0085ba;}*/
+.schedule-tab-block{padding:10px;}
+.schedule-tab-block input, span{display:line-block; margin-top:10px; margin-bottom:10px;margin-right:10px;}
+/*.choose-backup-schedule{padding-left:50px; width:auto;padding-right:50px;}
+.choose-storage-list{width:100%;box-sizing:border-box;}*/
+.setting-page-content{padding-left:20px;}
+/*.api-key-block{background-color:#f1f1f1;border-radius:10px;margin-bottom:10px;}
+.display-common-content{width:auto;position:relative;margin-top:10px;}
+.wpvivid-common-btn-ok{width:80px;height:20px;line-height:20px;margin-top:10px;margin-bottom:10px;margin-left:10px;float:right;margin-right:10px;font-size:12px;}
+.wpvivid-common-btn-cancel{width:80px;height:20px;line-height:20px;margin-top:10px;float:right;font-size:12px;}*/
+.backup-log-btn{height:30px;float:left; margin-left:10px; margin-bottom:10px;}
+/*.middle-loading {border-radius: 100%;border-style: solid;animation: rotate 1s infinite linear;}
+.middle-loading.forty {border-color: #f1f1f1;border-top-color: #757575;border-width: 3px;height: 30px;width:  30px;margin-top:5px;margin-right:10px;margin-left:10px;}*/
+@keyframes rotate { 0%   { transform: rotate(0); } 100%  { transform: rotate(359.9deg); } }
+.wpvivid-backup-storage-list tr:hover,
+.wpvivid-websiteinfo-list tr:hover,
+.wpvivid-backuplist tr:hover,
+.wpvivid-loglist tr:hover,
+.wpvivid-remote-storage-list tr:hover {background-color: #f9f9f9;}
+.restore_log{padding:10px; width:100%; height:500px; overflow:auto; box-sizing:border-box;}
+.restore-button-position{margin:10px 10px 10px 0px; float:left;}
+.restore-button-position input{margin-right:10px;}
+.nav-tab.delete{display: block;overflow: hidden;position:relative;}
+.nav-tab-delete-img{position: absolute;top: 0px;right: 3px;}
+.button-secondary.log-page{background: #fff;color: #00a0d2;border: 1px solid #00a0d2;margin: 3px;}
+.button-secondary.log-page:hover{color: #0b82a7;border: 1px solid #0b82a7;}
+.button-secondary.log-page:focus{color: #00a0d2;border: 1px solid #00a0d2;}
+.remote-storage-set-default-block{padding-top:10px;padding-left:10px;padding-right:10px;}
+.remote-storage-set-default-block input, span{display:line-block; margin-top:10px; margin-bottom:10px;margin-right:10px;}
+.remote-storage-ftp-passive-block,
+.remote-storage-amazons3-storage-class,
+.remote-storage-amazons3-encryption{padding-left:10px;}
+.remote-storage-ftp-passive-block input, span,
+.remote-storage-amazons3-storage-class input, span,
+.remote-storage-amazons3-encryption input, span{display:line-block; margin-top:10px; margin-bottom:10px;margin-right:10px;}
+.backup-list-head{}
+/*.download-website-info{float:left;}*/
+.storage-account-form {padding-top: 1px; padding-bottom: 1px;}
+
+.quicktransfer{width:100%; float:left; box-sizing:border-box;margin-right:10px; padding:10px;}
+.quicktransfer label{display:inline-block;margin-bottom:10px;}
+.quicktransfer-btn{display:block !important; margin:0 auto !important;width:220px;height:50px !important; line-height:48px !important; font-size:20px !important;}
+
+@media screen and (max-width:1650px) {
+	.qucikbackup-schedule{
+		float:none;
+		width:100%;
+	}
+	.quickbackup{
+		float:none;
+		width:100%;
+	}
+}
+@media only screen and (max-width: 1350px){
+	#poststuff #post-body.columns-2 {
+    margin:0;
+	}
+    #wpbody-content #post-body.columns-2 #postbox-container-1 {
+        margin-right: 0;
+        width: 100%;
+	}
+	
+}
+
+@media screen and (max-width:1315px) {
+	.quickstart-storage-block{
+		width:50%;
+	}
+	.quickstart-archive-block{
+		width:50%;
+	}
+	.quickstart-btn{
+		clear:both;
+		float:none;
+		width:100%;		
+	}
+/*	.quickstart-archive-block{
+		border-left:50px solid #0073aa;
+	}  */
+}
+@media screen and (max-width:800px){
+	.tablelistcolumn{
+		display:block;
+	}
+	.backup-list-head{
+		display:none;
+	}
+    .backuptime{
+		font-size:16px;		
+	}
+	.backuplist-delete-backup{
+		display:none;
+	}
+	.website-info-head{
+		display:none;
+	}
+	.log-head{
+		display:none;
+	}
+	.lafowef{
+		display:none;
+	}
+	.storage-account-form input{
+		width:360px;
+	}
+}
+@media screen and (max-width:600px) {
+	.quickstart-storage-block{
+		float:none;
+		width:100%;
+	}
+	.quickstart-archive-block{
+		float:none;
+		width:100%;
+	}
+	.quickstart-btn{
+		float:none;
+		width:100%;		
+	}
+}
+
+/* Popup container */
+.wpvivid-popup {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.wpvivid-popup .wpvivid-popuptext {
+	visibility: hidden;
+	width: 220px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 8px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 75%;
+	margin-left: -80px;
+}
+
+/* Popup arrow */
+.wpvivid-popup .wpvivid-popuptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.wpvivid-popup .show {
+	visibility: visible;
+	-webkit-animation: fadeIn 1s;
+	animation: fadeIn 1s
+}
+
+.wpvivid-popup .hide {
+	visibility: hidden;
+	-webkit-animation: fadeIn 1s;
+	animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity:1 ;}
+}

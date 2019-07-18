@@ -178,12 +178,12 @@ if ($cmsmasters_project_sharing_box == 'true') {
 }
 
 
-if ($cmsmasters_option['hotel-lux' . '_portfolio_project_nav_box']) {
+/*if ($cmsmasters_option['hotel-lux' . '_portfolio_project_nav_box']) {
 	$order_cat = (isset($cmsmasters_option['hotel-lux' . '_portfolio_project_nav_order_cat']) ? $cmsmasters_option['hotel-lux' . '_portfolio_project_nav_order_cat'] : false);
 	
 	hotel_lux_prev_next_posts($order_cat, 'pj-categs');
 }
-
+*/
 
 if ($cmsmasters_project_author_box == 'true') {
 	hotel_lux_author_box(esc_html__('About author', 'hotel-lux'), 'h3', 'h5');

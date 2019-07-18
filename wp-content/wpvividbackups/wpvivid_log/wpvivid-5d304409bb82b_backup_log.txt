@@ -1,0 +1,103 @@
+Log created: 2019-07-18 10:03:53
+Type: backup
+[2019-07-18 10:03:54][notice]Start backing up.
+[2019-07-18 10:03:54][notice]server info fcgi:Off max execution time: 900 wp version:5.2.2 php version:7.3.1 db version:5.7.25 php ini:safe_mode: memory_limit:256M memory_get_usage:58,97 MB memory_get_peak_usage:59,02 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2019-07-18 10:03:54][notice]Prepare to backup backup_db files.
+[2019-07-18 10:03:54][notice]Start exporting database.
+[2019-07-18 10:03:54][notice]max_allowed_packet less than 32M :4,00 MB
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activecommentmeta
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activecomments
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activeduplicator_packages
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activelayerslider
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activelayerslider_revisions
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activelinks
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_custom_fields
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_feature_flags
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_forms
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_log
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_mapping_to_external_entities
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_newsletter_links
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_newsletter_option
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_newsletter_option_fields
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_newsletter_posts
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_newsletter_segment
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_newsletter_templates
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_newsletters
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_scheduled_task_subscribers
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_scheduled_tasks
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_segments
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_sending_queues
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_settings
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_statistics_clicks
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_statistics_forms
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_statistics_newsletters
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_statistics_opens
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_statistics_unsubscribes
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_statistics_woocommerce_purchases
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_stats_notifications
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_subscriber_custom_field
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_subscriber_ips
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_subscriber_segment
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_subscribers
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activemailpoet_user_flags
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activenf3_action_meta
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activenf3_actions
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activenf3_chunks
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activenf3_field_meta
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activenf3_fields
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activenf3_form_meta
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activenf3_forms
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activenf3_object_meta
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activenf3_objects
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activenf3_relationships
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activenf3_upgrades
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activeoptions
+[2019-07-18 10:03:54][notice]Preparing to dump table fit_activepostmeta
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activeposts
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activerevslider_css
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activerevslider_layer_animations
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activerevslider_navigations
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activerevslider_sliders
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activerevslider_slides
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activerevslider_static_slides
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activeterm_relationships
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activeterm_taxonomy
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activetermmeta
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activeterms
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activeusermeta
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activeusers
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activewc_download_log
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activewc_product_meta_lookup
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activewc_webhooks
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activewoocommerce_api_keys
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activewoocommerce_attribute_taxonomies
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activewoocommerce_downloadable_product_permissions
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activewoocommerce_log
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activewoocommerce_order_itemmeta
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activewoocommerce_order_items
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activewoocommerce_payment_tokenmeta
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activewoocommerce_payment_tokens
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activewoocommerce_sessions
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activewoocommerce_shipping_zone_locations
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activewoocommerce_shipping_zone_methods
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activewoocommerce_shipping_zones
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activewoocommerce_tax_rate_locations
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activewoocommerce_tax_rates
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activeyoast_seo_links
+[2019-07-18 10:03:55][notice]Preparing to dump table fit_activeyoast_seo_meta
+[2019-07-18 10:03:55][notice]Exporting database finished.
+[2019-07-18 10:03:55][notice]Start compressing backup_db
+[2019-07-18 10:03:55][notice]Prepare to zip files. file: localhost_wordpress_cours_wpvivid-5d304409bb82b_2019-07-18-10-03_backup_db.zip
+[2019-07-18 10:03:55][notice]Adding zip files completed.localhost_wordpress_cours_wpvivid-5d304409bb82b_2019-07-18-10-03_backup_db.zip, filesize: 4,65 MB
+[2019-07-18 10:03:55][notice]Compressing backup_db completed
+[2019-07-18 10:03:55][notice]Backing up backup_db completed.
+[2019-07-18 10:03:55][notice]Prepare to backup backup_merge files.
+[2019-07-18 10:03:55][notice]File number: 1
+[2019-07-18 10:03:55][notice]Start compressing backup_merge
+[2019-07-18 10:03:55][notice]Prepare to zip files. file: localhost_wordpress_cours_wpvivid-5d304409bb82b_2019-07-18-10-03_backup_all.zip
+[2019-07-18 10:03:55][notice]Adding zip files completed.localhost_wordpress_cours_wpvivid-5d304409bb82b_2019-07-18-10-03_backup_all.zip, filesize: 4,65 MB
+[2019-07-18 10:03:55][notice]Compressing backup_merge completed
+[2019-07-18 10:03:55][notice]Backing up backup_merge completed.
+[2019-07-18 10:03:55][notice]Cleaned up file, filename: /Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/wp-content/wpvividbackups/localhost_wordpress_cours_wpvivid-5d304409bb82b_2019-07-18-10-03_backup_db.zip
+[2019-07-18 10:03:55][notice]Backup completed.
+[2019-07-18 10:03:55][notice]Backup succeeded.

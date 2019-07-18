@@ -199,9 +199,9 @@ function hotel_lux_related($tag = 'h3', $title = '', $no_title = '', $box_type =
 										</h5>";
 										
 										
-										if ($type == 'project') {	
+										/*if ($type == 'project') {	
 											hotel_lux_project_price($cmsmasters_project_price);
-										}
+										}*/
 										
 									echo "</div>
 								</div>

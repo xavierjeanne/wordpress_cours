@@ -36,7 +36,6 @@ if (have_posts()) : the_post();
 	echo '</div>';
 endif;
 
-
 echo '</div>' . "\n" . 
 '<!-- Finish Content -->' . "\n\n";
 
