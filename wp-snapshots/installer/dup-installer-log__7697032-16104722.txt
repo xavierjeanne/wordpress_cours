@@ -1,0 +1,867 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 01:00:52
+* VERSION: 1.3.18
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.1                                 |7.2.20
+OS__________________: Darwin                                |Linux
+CREATED_____________: 2019-07-16 10:47:22
+WP VERSION__________: 5.2.2
+DUP VERSION_________: 1.3.18
+DB__________________: 5.7.25
+DB TABLES___________: 80
+DB ROWS_____________: 11,061
+DB FILE SIZE________: 12.64MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.20 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://chalet-caviar.xavierjeanne.fr/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20190716_chaletetcaviar_769703224389393b6923_20190716104722_archive.zip"
+SIZE________________: 278.46MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/20190716_chaletetcaviar_769703224389393b6923_20190716104722_archive.zip' -d '/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 01:01:42 - RUNTIME: 50.0188 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 01:02:31
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.2.25 -- Build Server: 5.7.25
+FILE SIZE:	dup-database__7697032-16104722.sql (5.63MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/dup-installer/dup-installer-data__7697032-16104722.sql]
+COLLATE FB:	Off
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:386]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	11750
+
+fit_activecommentmeta: (4)
+fit_activecomments: (9)
+fit_activeduplicator_packages: (0)
+fit_activelayerslider: (1)
+fit_activelayerslider_revisions: (0)
+fit_activelinks: (0)
+fit_activemailpoet_custom_fields: (0)
+fit_activemailpoet_feature_flags: (0)
+fit_activemailpoet_forms: (1)
+fit_activemailpoet_log: (0)
+fit_activemailpoet_mapping_to_external_entities: (0)
+fit_activemailpoet_newsletter_links: (0)
+fit_activemailpoet_newsletter_option: (0)
+fit_activemailpoet_newsletter_option_fields: (13)
+fit_activemailpoet_newsletter_posts: (0)
+fit_activemailpoet_newsletter_segment: (0)
+fit_activemailpoet_newsletter_templates: (74)
+fit_activemailpoet_newsletters: (0)
+fit_activemailpoet_scheduled_task_subscribers: (0)
+fit_activemailpoet_scheduled_tasks: (12)
+fit_activemailpoet_segments: (3)
+fit_activemailpoet_sending_queues: (0)
+fit_activemailpoet_settings: (18)
+fit_activemailpoet_statistics_clicks: (0)
+fit_activemailpoet_statistics_forms: (0)
+fit_activemailpoet_statistics_newsletters: (0)
+fit_activemailpoet_statistics_opens: (0)
+fit_activemailpoet_statistics_unsubscribes: (0)
+fit_activemailpoet_statistics_woocommerce_purchases: (0)
+fit_activemailpoet_stats_notifications: (0)
+fit_activemailpoet_subscriber_custom_field: (0)
+fit_activemailpoet_subscriber_ips: (0)
+fit_activemailpoet_subscriber_segment: (1)
+fit_activemailpoet_subscribers: (1)
+fit_activemailpoet_user_flags: (0)
+fit_activenf3_action_meta: (78)
+fit_activenf3_actions: (4)
+fit_activenf3_chunks: (0)
+fit_activenf3_field_meta: (252)
+fit_activenf3_fields: (4)
+fit_activenf3_form_meta: (98)
+fit_activenf3_forms: (1)
+fit_activenf3_object_meta: (0)
+fit_activenf3_objects: (0)
+fit_activenf3_relationships: (0)
+fit_activenf3_upgrades: (1)
+fit_activeoptions: (414)
+fit_activepostmeta: (9248)
+fit_activeposts: (522)
+fit_activerevslider_css: (109)
+fit_activerevslider_layer_animations: (0)
+fit_activerevslider_navigations: (0)
+fit_activerevslider_sliders: (2)
+fit_activerevslider_slides: (4)
+fit_activerevslider_static_slides: (0)
+fit_activeterm_relationships: (124)
+fit_activeterm_taxonomy: (69)
+fit_activetermmeta: (99)
+fit_activeterms: (69)
+fit_activeusermeta: (33)
+fit_activeusers: (1)
+fit_activewc_download_log: (0)
+fit_activewc_product_meta_lookup: (0)
+fit_activewc_webhooks: (0)
+fit_activewoocommerce_api_keys: (0)
+fit_activewoocommerce_attribute_taxonomies: (0)
+fit_activewoocommerce_downloadable_product_permissions: (0)
+fit_activewoocommerce_log: (0)
+fit_activewoocommerce_order_itemmeta: (0)
+fit_activewoocommerce_order_items: (0)
+fit_activewoocommerce_payment_tokenmeta: (0)
+fit_activewoocommerce_payment_tokens: (0)
+fit_activewoocommerce_sessions: (1)
+fit_activewoocommerce_shipping_zone_locations: (0)
+fit_activewoocommerce_shipping_zone_methods: (0)
+fit_activewoocommerce_shipping_zones: (0)
+fit_activewoocommerce_tax_rate_locations: (0)
+fit_activewoocommerce_tax_rates: (0)
+fit_activeyoast_seo_links: (209)
+fit_activeyoast_seo_meta: (103)
+Removed '85' cache/transient rows
+
+INSERT DATA RUNTIME: 3.2234 sec.
+STEP-2 COMPLETE @ 01:02:34 - RUNTIME: 3.2774 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 01:02:47
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Chalet et Caviar"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/"
+path_new______________: "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+siteurl_______________: "http://chalet-caviar.xavierjeanne.fr"
+url_old_______________: "http://localhost:8000/wordpress_cours"
+url_new_______________: "http://chalet-caviar.xavierjeanne.fr"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "xavierjeann_xavier"
+dbname________________: "xavierjeann_chalet-caviar"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "fit_activecommentmeta"___________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activecomments"______________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activeduplicator_packages"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activelayerslider"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activelayerslider_revisions"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activelinks"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_custom_fields"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_feature_flags"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_forms"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activemailpoet_log"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_mapping_to_external_entities"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_newsletter_links"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_newsletter_option"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_newsletter_option_fields"_____[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activemailpoet_newsletter_posts"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_newsletter_segment"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_newsletter_templates"_________[ROWS:    74][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activemailpoet_newsletters"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_scheduled_task_subscribers"___[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_scheduled_tasks"______________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activemailpoet_segments"_____________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activemailpoet_sending_queues"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_settings"_____________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activemailpoet_statistics_clicks"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_statistics_forms"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_statistics_newsletters"_______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_statistics_opens"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_statistics_unsubscribes"______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_statistics_woocommerce_purchases"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_stats_notifications"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_subscriber_custom_field"______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_subscriber_ips"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activemailpoet_subscriber_segment"___________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activemailpoet_subscribers"__________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activemailpoet_user_flags"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activenf3_action_meta"_______________________[ROWS:    78][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activenf3_actions"___________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activenf3_chunks"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activenf3_field_meta"________________________[ROWS:   252][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activenf3_fields"____________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activenf3_form_meta"_________________________[ROWS:    98][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activenf3_forms"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activenf3_object_meta"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activenf3_objects"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activenf3_relationships"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activenf3_upgrades"__________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activeoptions"_______________________________[ROWS:   414][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activepostmeta"______________________________[ROWS:  9248][PG:   3][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activeposts"_________________________________[ROWS:   522][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activerevslider_css"_________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activerevslider_layer_animations"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activerevslider_navigations"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activerevslider_sliders"_____________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activerevslider_slides"______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activerevslider_static_slides"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activeterm_relationships"____________________[ROWS:   124][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activeterm_taxonomy"_________________________[ROWS:    69][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activetermmeta"______________________________[ROWS:    99][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activeterms"_________________________________[ROWS:    69][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activeusermeta"______________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activeusers"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activewc_download_log"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activewc_product_meta_lookup"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activewc_webhooks"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activewoocommerce_api_keys"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activewoocommerce_attribute_taxonomies"______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activewoocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activewoocommerce_log"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activewoocommerce_order_itemmeta"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activewoocommerce_order_items"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activewoocommerce_payment_tokenmeta"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activewoocommerce_payment_tokens"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activewoocommerce_sessions"__________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activewoocommerce_shipping_zone_locations"___[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activewoocommerce_shipping_zone_methods"_____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activewoocommerce_shipping_zones"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activewoocommerce_tax_rate_locations"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activewoocommerce_tax_rates"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "fit_activeyoast_seo_links"_______________________[ROWS:   209][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+
+EVALUATE TABLE: "fit_activeyoast_seo_meta"________________________[ROWS:   103][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Users/msc/Desktop/xavier/OneDrive - My Social Company Group/openclassroom/cours/wordpress_cours/" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr/"
+	SEARCH  2:"\/Users\/msc\/Desktop\/xavier\/OneDrive - My Social Company Group\/openclassroom\/cours\/wordpress_cours\/" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr\/"
+	SEARCH  3:"%2FUsers%2Fmsc%2FDesktop%2Fxavier%2FOneDrive+-+My+Social+Company+Group%2Fopenclassroom%2Fcours%2Fwordpress_cours%2F" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr%2F"
+	SEARCH  4:"\Users\msc\Desktop\xavier\OneDrive - My Social Company Group\openclassroom\cours\wordpress_cours" => "/home/xavierjeann/sites/chalet-caviar.xavierjeanne.fr"
+	SEARCH  5:"\\Users\\msc\\Desktop\\xavier\\OneDrive - My Social Company Group\\openclassroom\\cours\\wordpress_cours" => "\/home\/xavierjeann\/sites\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  6:"%5CUsers%5Cmsc%5CDesktop%5Cxavier%5COneDrive+-+My+Social+Company+Group%5Copenclassroom%5Ccours%5Cwordpress_cours" => "%2Fhome%2Fxavierjeann%2Fsites%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH  7:"//localhost:8000/wordpress_cours" ================> "//chalet-caviar.xavierjeanne.fr"
+	SEARCH  8:"\/\/localhost:8000\/wordpress_cours" =============> "\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH  9:"%2F%2Flocalhost%3A8000%2Fwordpress_cours" ========> "%2F%2Fchalet-caviar.xavierjeanne.fr"
+	SEARCH 10:"https://chalet-caviar.xavierjeanne.fr" ===========> "http://chalet-caviar.xavierjeanne.fr"
+	SEARCH 11:"https:\/\/chalet-caviar.xavierjeanne.fr" =========> "http:\/\/chalet-caviar.xavierjeanne.fr"
+	SEARCH 12:"https%3A%2F%2Fchalet-caviar.xavierjeanne.fr" =====> "http%3A%2F%2Fchalet-caviar.xavierjeanne.fr"
+--------------------------------------
+SCANNED:	Tables:80 	|	 Rows:11582 	|	 Cells:58209 
+UPDATED:	Tables:7 	|	 Rows:371 	|	 Cells:388 
+ERRORS:		0 
+RUNTIME:	0.329200 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""xavierjeann_chalet-caviar""
+	UPDATE DB_USER ""xavierjeann_xavier""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 01:02:48 - RUNTIME: 0.3539 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
